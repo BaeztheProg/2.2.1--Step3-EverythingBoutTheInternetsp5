@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions</title>
+  <style>
+    html {
+        background: #000;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .faq-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+
+    .card {
+      perspective: 1000px;
+      padding: 0px;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      transform-style: preserve-3d;
+      transition: transform 0.75s;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: #333;
+      text-align: center;
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+      background-color: #f1f1f1;
+      color: black;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    .bg {
+      object-fit: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1   0;
+      filter: blur(20px) brightness(0.5);
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html">Social Media Platforms</a></h1>
+        <nav>
+            <a href="safety.html">Safety</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
+    </header>
+    
+  <img class="bg" src="https://www.pixground.com/wp-content/uploads/2023/04/Windows-11-Night-Scenery-Wallpaper-4K-Wallpaper.jpg">
+
+  <div class="faq-container">
+    <!-- Flashcard 1 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          What was the first social media app?
+        </div>
+        <div class="card-back">
+          SixDegrees, in 1997
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 2 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          How many people are on social media?
+        </div>
+        <div class="card-back">
+          5.24 billion social media users
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 3 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          What social media is the most popular?
+        </div>
+        <div class="card-back">
+          YouTube, with 3.9 billion monthly active users
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 4 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          How deep into phone addiction are the people?
+        </div>
+        <div class="card-back">
+          The average daily usage of social media is well above 2 hours
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 5 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          How many social media accounts are hacked per month?
+        </div>
+        <div class="card-back">
+          1.4 billion per month
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 6 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          How many US students are cyberbullied?
+        </div>
+        <div class="card-back">
+          One in three US students
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 7 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          How many adults think social media is harmful?
+        </div>
+        <div class="card-back">
+          More than one in three adults
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard 8 -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          Why is social media age restricted?
+        </div>
+        <div class="card-back">
+          Due to the risk of inappropriate content and interaction
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
