@@ -1,6 +1,18 @@
-# 2.2.1--Step3-EverythingBoutTheInternetsp5
+# 2.2.1--Step3-EverythingBoutTheInternetsp5 -> What is Social Media?
 
 ## Team Members: Aditya, Prabhav, Vijayesh, and Rohit (Arnav G was absent)
+
+## First Page of Website (Introduction)
+![image](https://github.com/user-attachments/assets/dddefa52-484f-4a33-bd2a-e2abbbe15354)
+
+## Second Page of Website (Programming)
+![image](https://github.com/user-attachments/assets/e4eeb582-dd4c-4359-a52a-987625a3a3b7)
+
+## Third Page of Website (Conceptuality)
+![image](https://github.com/user-attachments/assets/0e6f3e1d-ab04-44ca-9ac7-ac2a73646583)
+
+## Fourth Page of Website (Innovation)
+![image](https://github.com/user-attachments/assets/2a8e5669-f799-45b3-a6b4-9f3d462a62ba)
 
 ## Image Citations
 National Cyber Security Centre. “Social Media: How to Use It Safely.” Www.ncsc.gov.uk, 24 Jan. 2019, www.ncsc.gov.uk/guidance/social-media-how-to-use-it-safely.
